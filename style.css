@@ -4,19 +4,21 @@
     text-decoration: none;
     list-style: none;
 }
+
 body {
-    background-color: skyblue;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,7,50,1) 14%, rgba(0,212,255,1) 100%);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
 }
 
 header {
-  height: 80vh;
+  height: 20vh;
   width: 100vw;
 }
 
- .navbar {
+.navbar {
     position: absolute;
     padding: 10px;
     display: flex;
@@ -26,7 +28,7 @@ header {
     box-sizing: border-box;
 }
 
- .navbar a {
+.navbar a {
     color: black;
     font-weight: 700;
 }
@@ -62,6 +64,17 @@ header {
 #dark-mode ::after {
     background-color: black;
 } 
+
 #github {
     height: 30px;
+}
+
+#mario {
+    margin: 100px;
+    height: 300px;
+}
+
+#pwd_g {
+    margin: 100px;
+    height: 300px;
 }
