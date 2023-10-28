@@ -68,7 +68,9 @@ header {
 #github {
     height: 30px;
 }
-
+#projects {
+    margin-top: 100px;
+}
 #mario {
     margin: 100px;
     height: 300px;
