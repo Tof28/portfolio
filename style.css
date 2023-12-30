@@ -21,9 +21,9 @@ header {
 .navbar {
     position: absolute;
     padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:flex-end;
+    display:inline-block;
+    justify-content:space-between;
     width: 100%;
     box-sizing: border-box;
 }
@@ -33,12 +33,14 @@ header {
     font-weight: 700;
 }
 
-.navbar .nav-links ul  {
-    display: flex;
+.navbar ul  {
+    position: absolute;
+    justify-content: flex-end;
+    display:flexbox;
     align-content: space-between;
 }
 
-.navbar .nav-links ul li {
+.navbar ul li {
     margin: 25px;
 }
 
